@@ -1,1 +1,113 @@
 @import 'bootstrap';
+
+
+body {
+  background-color: grey;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.top-nav{
+  background-color: #B499FC;
+  boder-bottom-color: #edeee;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  height: 70px;
+  padding-top: 15px;
+}
+.top-nav .add a {
+  font-weight: bold;
+  color: #070311;
+  font-size: 16px;
+  padding-left: 12px;
+}
+
+.top-nav .add{
+  margin-top: 10px;
+}
+
+.brand {
+  color: #EBE9F1;
+  font-size:30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.card {
+  background-color: #EBE9F1;
+  border-radius: .25rem;
+  box-shadow: 0 1px 0 rgba(0,0,0, 0.25);
+  border: 1px solid #e8e8e8;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.card p, .card .message {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.handle {
+  margin: 10px;
+  color: #070311;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card.form{
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.input-btn {
+  background-color: #EBE9F1;
+}
+
+.input.boolean {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.input.boolean label {
+  margin-top: 5px;
+  line-height: 44px;
+}
+
+.my-btn {
+  background-color: #070311;
+  width: 100%;
+  border: none;
+  font-size: 24px;
+  color: white;
+  margin-top: 10px;
+}
+
+.gram-actions a {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+  color: #B499FC;
+  float: right;
+}
+
+.comments {
+  padding: 20px;
+}
+
+.comment {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.comment_handle {
+  color: #070311;
+  font-weight: bold;
+  font-size: 16px;
+}
